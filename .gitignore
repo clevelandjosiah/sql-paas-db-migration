@@ -1,0 +1,11 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+tfplan
+crash.log
+
+# Keep the example files, ignore real values
+*.tfvars
+!*.tfvars.example
+
+# .terraform.lock.hcl is committed on purpose: it pins provider versions
